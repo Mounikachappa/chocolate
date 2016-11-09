@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "sybase",
+        "scope": null,
+        "escapedName": "sybase",
+        "name": "sybase",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Mounika ch\\Stresstest"
+    ]
+  ],
+  "_from": "sybase@latest",
+  "_id": "sybase@1.0.10",
+  "_inCache": true,
+  "_location": "/sybase",
+  "_nodeVersion": "6.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/sybase-1.0.10.tgz_1474591935501_0.7364652121905237"
+  },
+  "_npmUser": {
+    "name": "rodhoward",
+    "email": "rod.howard@gmail.com"
+  },
+  "_npmVersion": "3.9.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "sybase",
+    "scope": null,
+    "escapedName": "sybase",
+    "name": "sybase",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/sybase/-/sybase-1.0.10.tgz",
+  "_shasum": "224e03aed08165a0a1814a51dcd68518aebe4d09",
+  "_shrinkwrap": null,
+  "_spec": "sybase",
+  "_where": "C:\\Users\\Mounika ch\\Stresstest",
+  "author": {
+    "name": "Rod Howard",
+    "email": "rod.howard@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rodhoward/node-sybase/issues"
+  },
+  "dependencies": {
+    "JSONStream": "latest"
+  },
+  "description": "A simple node.js wrapper around a java/jconnect app that provides easy access to Sybase Databases without having to install odbc or freetds.",
+  "devDependencies": {
+    "bluebird": "^3.4.6",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "224e03aed08165a0a1814a51dcd68518aebe4d09",
+    "tarball": "https://registry.npmjs.org/sybase/-/sybase-1.0.10.tgz"
+  },
+  "gitHead": "619f7bd0c5bb10850d5082f6c9d02774a8ba671b",
+  "homepage": "http://github.com/rodhoward/node-sybase/",
+  "keywords": [
+    "database",
+    "sybase",
+    "jconnect",
+    "sql",
+    "java"
+  ],
+  "license": "MIT",
+  "main": "src/SybaseDB.js",
+  "maintainers": [
+    {
+      "name": "rodhoward",
+      "email": "rod.howard@gmail.com"
+    }
+  ],
+  "name": "sybase",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rodhoward/node-sybase.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.10"
+}
